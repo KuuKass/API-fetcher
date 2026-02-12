@@ -1,0 +1,55 @@
+body {
+	
+	background: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Auguste_clown_reading_a_book_upside-down.jpg');
+}
+
+h1 {
+font-size: 90px;
+text-shadow: 2px 2px 4px #00ff04;
+letter-spacing: 3px;
+font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+	animation: rainbow 3s infinite linear;
+}
+
+p {
+font-size: 37px;
+text-shadow: 2px 2px 4px #0af2ea;
+letter-spacing: 3px;
+font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+	animation: rainbow 3s infinite linear;
+}
+
+button {
+	color: #ff00f7;
+	background-color: #00ffe1;
+	font-size: 50px;
+margin-top: 100px;
+margin-left: 1050px;
+border-color: #fbff00;
+border-radius: 15px;
+font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 0;
+}
+
+@keyframes rainbow {
+	0%  {color: #ff1100;}
+	20% {color: ffff00;}
+	40% {color: #00ff08;}
+	60% {color: #00ffff;}
+	80% {color: #005eff;}
+	100% {color: #c800ff}
+}
