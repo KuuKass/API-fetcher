@@ -3,5 +3,5 @@ async function getData() {
   const data = await response.json();
   console.log(data);
 };
-
-const jokeButton = document.querySelector(#jokeBtn)
+const jokeButton = document.querySelector('#jokeBtn');
+jokeButton.addEventListener('click', getData);
